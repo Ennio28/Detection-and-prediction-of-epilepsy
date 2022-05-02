@@ -1,1 +1,4 @@
 # Detection-and-prediction-of-epilepsy
+An interactive GUI was developed in order to allow the user to test and use the application.
+In order to run the application, simply unpack the compressed file from github, switch your matlab workspace to the folder in which you saved the files and run the file epileptic.mlapp by typing ‘epileptic’ in the matlab command line.
+In case you need to manually add the patient’s dataset (54802.mat and 112502.mat or other dataset), just add them to the same directory / path of the project files. There are already trained networks for every network in the project scope. In order to save time, it is recommended you to first test the saved networks prior to train a new one (training a new network will override the previously saved network). Guidelines to use a saved network are presented below in the pdf file.
